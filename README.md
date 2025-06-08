@@ -68,7 +68,7 @@ Or with Docker Compose (see below).
 ```yaml
 services:
   image-switcher:
-    build: .
+    image: ghcr.io/clementbrls/random-images:latest
     ports:
       - "8080:8080"
     volumes:
